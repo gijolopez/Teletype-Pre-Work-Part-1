@@ -45,3 +45,7 @@ h1 {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	color: green;
 }
+
+#amount_remaining {
+	font-weight: bold;
+}
