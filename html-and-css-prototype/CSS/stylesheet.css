@@ -40,3 +40,7 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.wrapper {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
