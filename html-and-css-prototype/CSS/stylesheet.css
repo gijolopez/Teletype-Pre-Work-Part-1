@@ -40,21 +40,14 @@ h1 {
 */
 
 /* Your CSS code goes here */
-/*.wrapper {
-  display: grid;
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 50px 50px 50px;
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-  color: #777;
-}
-*/
+
 .main-box {
 	width:303px;
   margin:0 auto;
   padding:15px 20px;
 }
 
-.pledge-box h3 {
+.main-box h3 {
   position:relative;
   background:#424242;
   color:#fff;
@@ -65,7 +58,7 @@ h1 {
   text-shadow: 0px 0px 1px #777;
 }
 
-.pledge-box h3:after {
+.main-box h3:after {
 	top: 100%;
 	left: 87%;
 	border: solid transparent;
@@ -79,6 +72,138 @@ h1 {
 	border-width: 5px;
 	margin-left: -5px;
 }
-.pledge-box h3 strong {
+
+.main-box h3 strong {
   font-weight:700;
+}
+
+.bar {
+  border:1px solid #e5e4e2;
+  margin-top:8px;
+  padding:0;
+  background:#fff;
+  height:13px;
+}
+
+.completed-days {
+  display:inline-block;
+  vertical-align:top;
+  margin-left:-25%;
+  width:75%;
+  height:100%;
+  padding:0;
+  background:#EF5F3C;
+}
+
+.inside-box {
+  border:1px solid #e5e4e2;
+  border-top:none;
+  padding:12px 18px;
+}
+
+.paragraph strong {
+  color:#ef5f3c;
+}
+
+.paragraph em {
+  color:#424242;
+  font-style:normal;
+  font-weight:bold;
+}
+
+.paragraph {
+  padding:0 2px;
+  font-size:12px;
+  color:#777;
+  text-align:left;
+}
+
+.join {
+  margin-top:15px;
+}
+
+.bottom-container {
+  margin-top:15px;
+}
+
+.bottom-container button {
+  width:47%;
+  padding:12px;
+}
+
+button.dollars {
+  padding-left:7px;
+  text-align:left;
+  font-family:"Hevetica Neue", Arial;
+  color:#777;
+  border:1px solid #e5e4e2;
+  border-color:#e9e9e9 #e9e9e9 #e5e4e2 #e5e4e2;
+  border-radius:4px;
+  width:45%;
+  margin-right:5%;
+}
+
+button.dollars strong {
+  padding-left:5px;
+  color:#424242;
+}
+
+button.give-now {
+  background:#1CBC2C;
+  color:#fff;
+  font-weight:300;
+  border-radius:4px;
+  box-shadow: inset 0 -1px 0 1px #0bab1b;
+}
+
+a.why-give {
+color:#20A1D4;
+  text-decoration:none;
+  font-size:12px;
+  font-style:italic;
+  text-align:left;
+  width:100%;
+  display:inline-block;
+  margin-left:2px;
+  margin-top:7px;
+  padding-bottom:6px;
+}
+
+button.save-later,
+button.tell-friends {
+	font-family:"Hevetica Neue", Arial;
+  color:#777;
+  border:1px solid #e5e4e2;
+  border-color:#e9e9e9 #e9e9e9 #e5e4e2 #e5e4e2;
+  border-bottom:2px solid #e5e4e2;
+  border-radius:4px;
+  padding:9px 0;
+  font-size:12px;
+  font-weight:bold;
+  width:124px;
+}
+
+button.save-later {
+  margin-right:13px;
+  margin-left:1px;
+}
+
+button {
+	background: none;
+	border: 0;
+	color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button; /* for input */
+  -webkit-user-select: none; /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
 }
